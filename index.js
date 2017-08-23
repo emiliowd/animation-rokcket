@@ -27,7 +27,12 @@ const animation = nave.animate([
     playButton.addEventListener('click', (event) => {
        if (animation.playState === 'finished'){
         animation.playbackRate = 1
-      }
+      } 
+      if (animation.playState === 'idle'){
+        if (animation.playbackRate === -1){
+            animation.playbackRate = 1
+          }
+        }
       animation.play();
     });
     pauseButton.addEventListener('click', (event) => {
