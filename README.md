@@ -1,4 +1,4 @@
-# Animarion-Rocket
+# Animacion-Rocket
 
 Representación gráfica animada de un cohete espacial, trabajando la animación mediante código Javascript y con control de animación mediante la propiedad animate.
 
